@@ -37,3 +37,8 @@ b) SendEmail - Self explantory, used to send emails
 5) Shared Kernel - in this layer all common wrappers are written which are then required by all above mentioned class libraries
 6) Tests - Self explantory, tests for each layer
 
+
+As this is a sample repository, for detailed proper implementation please refer to below link:
+https://github.com/tarunprof4/Bookmyslot-Api/tree/CleanArchitectureWithDDD
+LoginController SocialCustomerLogin method
+
