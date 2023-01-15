@@ -16,6 +16,7 @@ the focus will entirely be on clean architecture.
 
 Diagram:
 I found it tough in the beginning to understand concentric circles representation, so sharing below different representation
+
 ![CleanArchitecture (1)](https://user-images.githubusercontent.com/116249623/212561223-b632ca38-9f8b-46a0-ab7e-e54871eb8ab9.jpg)
 
 RegisterCustomerController with Post method- Register customer request.
@@ -23,14 +24,13 @@ Added swagger to hit the same.
 Swagger url - http://localhost:14499/swagger/index.html
 
 
-
 Clean Architecture Folder structure
 1) Presentation Library - Self explantory, entry and exit point for the request
 2) Application Library - this should contain logic as a workflow to complete the request. For eg here first the request makes a call in domain library
-to check if the customer is allowed to register. If allowed then it calls repository layer. This layer doesnt contain actual domain logic.
-Note: For eg. CanCustomerRegister() method is written in domain layer and not in Application layer and this distinction is very important.
+to check if the customer is allowed to register. If allowed then it calls repository layer. This layer DOESNT contain actual domain logic.
+Note: For eg. CanCustomerRegister() method is written in domain layer and not in Application layer and THIS DISTINCTION is very important.
 3) Domain - this layer contains real domain logic(also called use cases) around which the software is built. 
-4) Infrastructure folder has 2 class libraries - under infrasturce comes connection to external systems like database, sending emails, sending sms
+4) Infrastructure folder has 2 class libraries - under infrasturce comes connection to EXTERNAL SYSTEMS like database, sending emails, sending sms
 etc.
 a) Repository - Self explantory, used to persist the data
 b) SendEmail - Self explantory, used to send emails
