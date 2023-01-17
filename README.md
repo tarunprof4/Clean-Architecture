@@ -1,5 +1,5 @@
-# Clean-Architecture .Net 
-Clean-Architecture .Net 
+# Clean-Architecture .Net C#
+Clean-Architecture in .Net C# 
 
 It took me personally 3 years to exactly understand the nuances of this architecture primarly because the internet has multiple variations of this architecture. Most of the narrations i came across are right from their presepective
 but these many variations let me to confusion. So here is an attempt to demonstate clean architecture in clear and concise way
