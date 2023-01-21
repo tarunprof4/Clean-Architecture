@@ -1,6 +1,8 @@
 # Clean-Architecture .Net C#
 Clean-Architecture in .Net C# 
 
+Intended Audience- 3+ yrs of development experience
+
 It took me personally 3 years to exactly understand the nuances of this architecture primarly because the internet has multiple variations of this architecture. Most of the narrations i came across are right from their presepective
 but these many variations let me to confusion. So here is an attempt to demonstate clean architecture in clear and concise way
 
@@ -18,6 +20,8 @@ Diagram:
 I found it tough in the beginning to understand concentric circles representation, so sharing below different representation
 
 ![CleanArchitecture (1)](https://user-images.githubusercontent.com/116249623/212561223-b632ca38-9f8b-46a0-ab7e-e54871eb8ab9.jpg)
+
+Tools- Visual Studio 2019 or later Community version
 
 RegisterCustomerController with Post method- Register customer request.
 Added swagger to hit the same.
