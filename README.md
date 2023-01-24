@@ -27,7 +27,6 @@ I found it tough in the beginning to understand concentric circles representatio
 
 
 RegisterCustomerController with Post method- Register customer request.
-Added swagger to hit the same.
 Swagger url - http://localhost:14499/swagger/index.html
 
 
