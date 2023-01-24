@@ -1,5 +1,5 @@
-# Clean-Architecture .Net C#
-Clean-Architecture in .Net C# 
+# Clean-Architecture Solution Template .Net C#
+
 
 Intended Audience- 3+ yrs of development experience
 
